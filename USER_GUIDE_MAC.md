@@ -149,6 +149,34 @@ SceneScope currently supports these dataset families:
 
 > **Tip:** You do not need to rename your folders to match these IDs. SceneScope will automatically detect which dataset family each folder belongs to based on its contents.
 
+### ConsiderIt dataset — map files
+
+If you are working with the **ConsiderIt (CPM-Objects)** dataset, we provide the required HD map files (Lanelet2 format) in this repository under the [`Maps/`](Maps/) folder:
+
+| File | Description |
+| ---- | ----------- |
+| `lidar_site_lanelet2.osm` | Lanelet2 HD map for the LiDAR sensor site |
+| `thermal_camera_site_lanelet2.osm` | Lanelet2 HD map for the thermal camera site |
+
+**You must place these map files inside your ConsiderIt dataset folder** for SceneScope to find them. Copy them into a `Maps/` subfolder next to your data:
+
+```
+ConsiderIt/
+├── Camera/
+│   └── camera_cpm_objects_clean_v1.csv
+├── LiDAR/
+│   └── lidar_cpm_objects_clean_v1.csv
+└── Maps/                               ← place map files here
+    ├── lidar_site_lanelet2.osm
+    └── thermal_camera_site_lanelet2.osm
+```
+
+You can download the map files directly from this repository:
+
+1. Go to the [`Maps/`](Maps/) folder on GitHub.
+2. Click on each `.osm` file and click the **Download raw file** button (↓ icon).
+3. Copy the downloaded files into your `ConsiderIt/Maps/` folder.
+
 ---
 
 ## Importing Datasets into SceneScope
