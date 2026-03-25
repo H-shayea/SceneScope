@@ -108,7 +108,10 @@ Here is an example layout with two datasets:
 ```
 Datasets/
 ├── ConsiderIt/
-│   ├── Camera&LiDAR/
+│   ├── Camera/
+│   │   ├── train/
+│   │   └── val/
+│   ├── LiDAR/
 │   │   ├── train/
 │   │   └── val/
 │   └── Maps/
