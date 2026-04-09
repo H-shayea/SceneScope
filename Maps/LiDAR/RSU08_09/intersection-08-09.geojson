@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "hhva-08"
+      },
+      "geometry": {
+        "coordinates": [
+          9.99338564890849,
+          53.5419159247937
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "hhva-09"
+      },
+      "geometry": {
+        "coordinates": [
+          9.99361650505034,
+          53.5414984305296
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
